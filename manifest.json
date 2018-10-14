@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Google PageSpeed Plugin",
+  "description": "This extension will analyze a page using Google PageSpeed",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "Tilde.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
